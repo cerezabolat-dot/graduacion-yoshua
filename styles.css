@@ -4,7 +4,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 
 /* Fotografía principal */
-.hero{background:linear-gradient(rgba(15,32,22,.72),rgba(20,41,29,.86)),url("assets/graduacion-hero.png") center 38%/cover no-repeat}
+.hero{background:linear-gradient(rgba(15,32,22,.72),rgba(20,41,29,.86)),url("graduacion-hero.png") center 38%/cover no-repeat}
 .degree{max-width:620px;margin:0 auto 1.2rem;color:var(--gold);font-size:.82rem;line-height:1.7;letter-spacing:.15em;text-transform:uppercase}
 
 /* Versículo y agradecimiento */
