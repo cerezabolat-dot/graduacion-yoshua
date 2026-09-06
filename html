@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta name="theme-color" content="#203728">
+
+  <meta
+    name="description"
+    content="Invitación a la graduación de Yoshua — noviembre de 2026."
+  >
+
+  <title>Graduación de Yoshua</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="locked">
+
+  <!-- MÚSICA -->
+  <audio id="musica" loop preload="metadata">
+    <source src="Download.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- PORTADA DE LA INVITACIÓN -->
+  <section
+    class="cover"
+    id="cover"
+    aria-label="Abrir invitación"
+  >
+
+    <div class="cover-glow"></div>
+
+    <button
+      class="invitation-seal"
+      id="openInvitation"
+      type="button"
+      aria-label="Abrir la invitación"
+    >
+
+      <span class="eyebrow">
+        GRADUACIÓN 2026
+      </span>
+
+      <span class="monogram">Y</span>
+
+      <span class="gold-rule"></span>
+
+      <span class="script">
+        Estás invitado
+      </span>
+
+      <small>TOCA PARA ABRIR</small>
+
+    </button>
+
+  </section>
+
+  <!-- BOTÓN DE MÚSICA -->
+  <button
+    id="musicBtn"
+    class="music-btn"
+    type="button"
+    aria-label="Reproducir música"
+    aria-pressed="false"
+  >
+
+    <span class="music-bars" aria-hidden="true">
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+
+  </button>
+
+  <main id="contenido">
+
+    <!-- PORTADA PRINCIPAL -->
+    <section class="hero panel">
+
+      <div class="ornament top"></div>
+
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">
+          CEREMONIA DE GRADUACIÓN
+        </p>
+
+        <p class="script intro">
+          Celebremos juntos
+        </p>
+
+        <h1>Yoshua Rodas</h1>
+
+        <div class="diamond-rule">
+          <span></span>
+        </div>
+
+        <p class="degree">
+          Ingeniería Mecatrónica · Maestría en Ingeniería Biomédica
+        </p>
+
+        <p class="hero-copy">
+          Un capítulo termina y un nuevo camino comienza.
+        </p>
+
+        <p class="date-line">
+          14 · NOVIEMBRE · 2026
+        </p>
+
+        <a
+          class="scroll-cue"
+          href="#versiculo"
+          aria-label="Continuar hacia abajo"
+        >
+          ⌄
+        </a>
+
+      </div>
+
+      <div class="ornament bottom"></div>
+
+    </section>
+
+    <!-- VERSÍCULO -->
+    <section
+      class="verse-section panel"
+      id="versiculo"
+    >
+
+      <div class="section-inner reveal">
+
+        <p class="eyebrow green">
+          PALABRA DE DIOS
+        </p>
+
+        <blockquote class="verse">
+
+          <p>
+            “Todo lo puedo en Cristo que me fortalece.”
+          </p>
+
+          <cite>Filipenses 4:13</cite>
+
+        </blockquote>
+
+      </div>
+
+    </section>
+
+    <!-- MENSAJE DE AGRADECIMIENTO -->
+    <section
+      class="gratitude-section panel"
+      id="mensaje"
+    >
+
+      <div class="gratitude-card reveal">
+
+        <p class="eyebrow gold">
+          CON INMENSA GRATITUD
+        </p>
+
+        <h2>Un sueño hecho realidad</h2>
+
+        <div class="gratitude-copy">
+
+          <p>
+            Con inmensa gratitud a Dios, fuente de toda sabiduría
+            y fortaleza, elevo mi agradecimiento por haber guiado
+            mis pasos y permitirme alcanzar esta meta.
+          </p>
+
+          <p>
+            Expreso también mi más profundo reconocimiento a mis
+            padres, quienes con su amor incondicional, sacrificio,
+            ejemplo y apoyo constante hicieron posible este logro.
+            A ellos dedico con especial cariño este momento tan
+            significativo de mi vida.
+          </p>
+
+          <p>
+            Es un honor invitarle a compartir la ceremonia en la
+            que celebraré la culminación de mis estudios de
+            <strong>Ingeniería Mecatrónica</strong> y
+            <strong>Maestría en Ingeniería Biomédica</strong>.
+          </p>
+
+        </div>
+
+        <div class="signature">
+          Yoshua
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- IMAGEN ACADÉMICA -->
+    <section class="photo-story panel">
+
+      <div class="photo-story-grid">
+
+        <figure class="photo-frame reveal">
+
+          <img
+            src="assets/graduacion-diploma.png"
+            alt="Graduando firmando su título universitario"
+          >
+
+        </figure>
+
+        <div class="photo-story-copy reveal">
+
+          <p class="eyebrow gold">
+            UNA META ALCANZADA
+          </p>
+
+          <h2>
+            Ciencia, vocación y propósito
+          </h2>
+
+          <p>
+            Dos disciplinas unidas por el deseo de crear
+            soluciones que transformen y mejoren vidas.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CUENTA REGRESIVA -->
+    <section class="countdown panel dark">
+
+      <div class="section-inner reveal">
+
+        <p class="eyebrow gold">
+          FALTA MUY POCO
+        </p>
+
+        <h2>Cuenta regresiva</h2>
+
+        <div
+          id="contador"
+          class="counter"
+          aria-live="polite"
+        >
+
+          <div>
+            <strong id="dias">00</strong>
+            <span>Días</span>
+          </div>
+
+          <div>
+            <strong id="horas">00</strong>
+            <span>Horas</span>
+          </div>
+
+          <div>
+            <strong id="minutos">00</strong>
+            <span>Minutos</span>
+          </div>
+
+          <div>
+            <strong id="segundos">00</strong>
+            <span>Segundos</span>
+          </div>
+
+        </div>
+
+        <p
+          id="eventStatus"
+          class="event-status"
+        ></p>
+
+      </div>
+
+    </section>
+
+    <!-- FECHA Y UBICACIÓN -->
+    <section class="details panel light">
+
+      <div class="section-inner details-grid">
+
+        <article class="detail-card reveal">
+
+          <span class="number">01</span>
+
+          <p class="eyebrow green">
+            FECHA Y HORA
+          </p>
+
+          <h2>14 de noviembre</h2>
+
+          <p>Sábado · 5:00 p. m.</p>
+
+        </article>
+
+        <article class="detail-card reveal">
+
+          <span class="number">02</span>
+
+          <p class="eyebrow green">
+            UBICACIÓN
+          </p>
+
+          <h2>Hacienda Los Volcanes</h2>
+
+          <p>
+            Consulta la ruta y los detalles de la ubicación
+            en Google Maps.
+          </p>
+
+          <a
+            class="btn"
+            href="https://www.google.com/maps/place/Hotel+y+Restaurante+Hacienda+Los+Volcanes/@14.5723479,-90.6448439,16.12z/data=!4m9!3m8!1s0x85890b84c1cec463:0x116b2f1e4b516135!5m2!4m1!1i2!8m2!3d14.5727278!4d-90.641797!16s%2Fg%2F11cmv9rhhl?hl=es-US&entry=ttu"
+            target="_blank"
+            rel="noopener"
+          >
+            Ver ubicación
+            <span>↗</span>
+          </a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- DRESS CODE -->
+    <section class="dress panel">
+
+      <div class="dress-card reveal">
+
+        <p class="eyebrow green">
+          CÓDIGO DE VESTIMENTA
+        </p>
+
+        <h2>Elegante formal</h2>
+
+        <p class="body-copy">
+          Nos encantará verte con tu mejor estilo
+          para esta ocasión especial.
+        </p>
+
+        <div
+          class="dress-colors"
+          aria-label="Colores sugeridos para el código de vestimenta"
+        >
+
+          <!-- VERDE MUSGO -->
+          <div class="dress-tone">
+
+            <span style="--tone:#536044"></span>
+
+            <small>Verde musgo</small>
+
+          </div>
+
+          <!-- AZUL MARINO -->
+          <div class="dress-tone">
+
+            <span style="--tone:#172946"></span>
+
+            <small>Azul marino</small>
+
+          </div>
+
+          <!-- BEIGE -->
+          <div class="dress-tone">
+
+            <span style="--tone:#e8dcc6"></span>
+
+            <small>Beige</small>
+
+          </div>
+
+          <!-- NUEZ -->
+          <div class="dress-tone">
+
+            <span style="--tone:#9a653a"></span>
+
+            <small>Nuez</small>
+
+          </div>
+
+          <!-- DORADO -->
+          <div class="dress-tone">
+
+            <span style="--tone:#c6a45e"></span>
+
+            <small>Dorado</small>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- REGALO MONETARIO -->
+    <section class="gift panel">
+
+      <div class="gift-grid">
+
+        <figure class="gift-envelope reveal">
+
+          <div class="envelope-glow"></div>
+
+          <img
+            src="assets/sobre-regalo.png"
+            alt="Sobre verde musgo con lazo y sello dorados"
+          >
+
+        </figure>
+
+        <div class="gift-copy reveal">
+
+          <p class="eyebrow green">
+            DETALLE DE REGALO
+          </p>
+
+          <h2>
+            Mi mejor regalo es tu presencia
+          </h2>
+
+          <p class="body-copy">
+            Si deseas tener un detalle conmigo en este día
+            tan especial, te agradezco que sea en efectivo.
+          </p>
+
+          <p class="gift-thanks">
+            Gracias por tu cariño, tu apoyo y por acompañarme
+            en este logro tan importante.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONFIRMACIÓN -->
+    <section class="rsvp panel dark">
+
+      <div class="section-inner reveal">
+
+        <p class="eyebrow gold">
+          CONFIRMACIÓN
+        </p>
+
+        <h2>¿Nos acompañas?</h2>
+
+        <p class="body-copy">
+          Confirma tu asistencia antes del 5 de noviembre
+          e indica cuántas personas asistirán.
+        </p>
+
+        <a
+          class="btn gold-btn"
+          href="https://wa.me/50242146902?text=Confirmo%20mi%20asistencia%20para%20la%20ceremonia%20de%20graduaci%C3%B3n%20de%20Yoshua%20%0AAsistiremos%3A%20____%20personas."
+          target="_blank"
+          rel="noopener"
+        >
+          Confirmar por WhatsApp
+          <span>→</span>
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+      <span class="footer-monogram">Y</span>
+
+      <p>
+        Gracias por ser parte de este momento.
+      </p>
+
+      <small>
+        GRADUACIÓN · 2026
+      </small>
+
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
