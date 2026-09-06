@@ -274,7 +274,7 @@
 .dress-colors{
   width:min(720px,100%);
   display:grid;
-  grid-template-columns:repeat(5,minmax(90px,1fr));
+grid-template-columns:repeat(6,minmax(80px,1fr));
   justify-content:center;
   gap:clamp(1rem,2.5vw,1.8rem);
   margin:3rem auto 0;
